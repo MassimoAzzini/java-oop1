@@ -37,7 +37,6 @@ public class Prodotto {
 
     private int randomCode(){
         Random randomGen = new Random();
-        int code = randomGen.nextInt(99999999+1);
-        return code;
+        return randomGen.nextInt(99999999+1);
     }
 }
