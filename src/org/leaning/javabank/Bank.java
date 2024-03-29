@@ -16,7 +16,7 @@ public class Bank {
 
         boolean inEsecuzione = true;
 
-        while(inEsecuzione == true) {
+        while(inEsecuzione) {
 
             System.out.println("SELEZIONA UNA DELLE OPERAZIONI SEGUENTI:");
             System.out.println("1 - VERSAMENTI");
