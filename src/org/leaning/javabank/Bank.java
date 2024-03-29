@@ -46,7 +46,9 @@ public class Bank {
 
                 case 4:
                     inEsecuzione = false;
-                    default:
+
+                default:
+                    break;
             }
 
         }
