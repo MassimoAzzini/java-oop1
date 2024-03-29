@@ -1,4 +1,4 @@
-package org.leaning.oop;
+package org.leaning.javashop;
 
 import java.util.Random;
 
