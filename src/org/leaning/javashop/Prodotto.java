@@ -22,12 +22,11 @@ public class Prodotto {
     }
 
     // METODI
-    public String price(){
-        return String.format("%.2f €", prezzo);
+    public double price(){
+        return prezzo;
     }
-    public String ivaPrice(){
-        double ivaPrice = prezzo + (iva * prezzo / 100);
-        return String.format("%.2f €", ivaPrice);
+    public double ivaPrice(){
+        return prezzo + (iva * prezzo / 100);
     }
 
     public String nomeEsteso(){

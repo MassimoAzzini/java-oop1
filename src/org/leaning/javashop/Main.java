@@ -9,8 +9,8 @@ public class Main {
         System.out.println("Nome prodotto :" + Mela.nome);
         System.out.println("Nome esteso prodotto :" + Mela.nomeEsteso());
         System.out.println("Descrizione prodotto :" + Mela.descrizione);
-        System.out.println("Prezzo prodotto :" + Mela.price());
-        System.out.println("Prezzo+iva(" + Mela.iva + "%) prodotto :" + Mela.ivaPrice());
+        System.out.println("Prezzo prodotto :" + String.format("%.2f €", Mela.price()));
+        System.out.println("Prezzo+iva(" + Mela.iva + "%) prodotto :" + String.format("%.2f €", Mela.ivaPrice()));
 
 
         System.out.println(" ");
@@ -18,8 +18,8 @@ public class Main {
         System.out.println("Nome prodotto :" + Vino.nome);
         System.out.println("Nome esteso prodotto :" + Vino.nomeEsteso());
         System.out.println("Descrizione prodotto :" + Vino.descrizione);
-        System.out.println("Prezzo prodotto :" + Vino.price());
-        System.out.println("Prezzo+iva(" + Vino.iva + "%) prodotto :" + Vino.ivaPrice());
+        System.out.println("Prezzo prodotto :" + String.format("%.2f €", Vino.price()));
+        System.out.println("Prezzo+iva(" + Vino.iva + "%) prodotto :" + String.format("%.2f €", Vino.ivaPrice()));
 
     }
 }
